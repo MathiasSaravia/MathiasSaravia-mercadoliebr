@@ -8,11 +8,11 @@ module.exports = (req, res) => {
 
    const newProduct = {
     id: newID,
-    name:name.trim(),
+    name: name.trim(),
     price: +price,
     discount: +discount,
-    description:description.trim(),
-    category:category?.trim(),
+    description: description.trim(),
+    category: category?.trim(),
     image:"default-image.png"
    }
 
