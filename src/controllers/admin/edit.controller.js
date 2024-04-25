@@ -7,5 +7,5 @@ module.exports = (req, res) => {
 
 
     const productFind = products.find((p) =>p.id === +id)
-    res.render("admin/editProduct", {product:productFind })
+    res.render("admin/editProduct", {product:productFind})
 }
